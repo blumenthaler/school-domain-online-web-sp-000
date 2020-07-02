@@ -23,7 +23,7 @@ class School
   
   def sort
     sort_hash = {}
-    @roster[grade].sort.each do |grade, name_array|
+    @roster.sort.each do |grade, name_array|
       sort_hash[grade] = (name_array.sort)
     end
     sort_hash
