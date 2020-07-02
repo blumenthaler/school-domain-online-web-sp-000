@@ -26,8 +26,8 @@ class School
     
     #sorted list of all the students, strings in student arrays are alphabetical
     # sort each grade array alphabetically
-    @roster[grade].sort do |grade, name_array|
-      
+    @roster[grade].sort.each do |grade, name_array|
+      sort_hash[grade] = (name_array.sort)
     
     
     
