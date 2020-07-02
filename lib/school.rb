@@ -17,4 +17,6 @@ class School
     end
   end
   
+  def grade
+  
 end
