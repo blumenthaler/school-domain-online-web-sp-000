@@ -24,7 +24,9 @@ class School
   def sort
     sort_hash = {}
     
-    
+    #sorted list of all the students, strings in student arrays are alphabetical
+    # sort each grade array alphabetically
+    @roster[grade].sort do | |
     
     
     
